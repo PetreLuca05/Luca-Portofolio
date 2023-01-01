@@ -2,7 +2,7 @@
 const secondColorConst = "--second-color";
 const possibleColors = ["red", "orange", "orangered", "limegreen", "cadetblue"];
 const like_btn_hover_color = "--like-btn-hover-color";
-const possibleBgs = ["projects/fnaf/d1.png", "../projects/rac/rac1.jpg", "../projects/scifi-kfc/Demos/d8.png", "../projects/gum-ball-guy/d3.png", "../projects/rmg/1.PNG"]
+const possibleBgs = ["projects/fnaf/d8.png", "projects/rac/rac1.jpg", "projects/scifi-kfc/Demos/d8.png", "projects/gum-ball-guy/d3.png", "projects/rmg/1.PNG"]
 
 var btn = document.getElementById('btn');
 let root = document.querySelector(':root');
@@ -11,13 +11,14 @@ let rootVars = getComputedStyle(root);
 let copyText = document.querySelector(".personal-info-copy-mail");
 
 const header = document.querySelector("header");
+const pg1bg = document.getElementById("pg1");
 
 window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 10);
 });
 
 PickRandoTheme();
-PickAProject_Rac();
+//PickAProject_Rac();
 
 function PickRandoTheme(){
     var index;
@@ -26,7 +27,9 @@ function PickRandoTheme(){
     //index = 3;
     document.documentElement.style.setProperty(secondColorConst, possibleColors[index]);
 
-    document.getElementById("pg1").style.backgroundImage = "url('" + possibleBgs[index] + "')";
+    pg1bg.style.backgroundImage = "url('" + possibleBgs[index] + "')";
+
+
     if(index == 0){
         document.getElementById("pg1").style.backgroundPositionY = "-950px";
         //document.getElementById("pg1").style.backgroundPositionX = "350px";
