@@ -2,7 +2,7 @@
 const secondColorConst = "--second-color";
 const possibleColors = ["red", "orange", "orangered", "limegreen", "cadetblue"];
 const like_btn_hover_color = "--like-btn-hover-color";
-const possibleBgs = ["../_projects/fnaf/d8.png", "../_projects/rac/rac1.jpg", "../_projects/scifi-kfc/Demos/d8.png", "../_projects/gum-ball-guy/d3.png", "../_projects/rmg/1.PNG"]
+const possibleBgs = ["_projects/fnaf/d8.png", "_projects/rac/rac1.jpg", "_projects/scifi-kfc/Demos/d8.png", "_projects/gum-ball-guy/d3.png", "_projects/rmg/1.PNG"];
 
 var btn = document.getElementById('btn');
 let root = document.querySelector(':root');
@@ -23,13 +23,12 @@ function PickRandoTheme(){
     var index;
     
     index = getRandomNumber(0, possibleColors.length - 1);
-    //index = 3;
     document.documentElement.style.setProperty(secondColorConst, possibleColors[index]);
+    document.getElementById("pg1").style.backgroundImage = "url(" + possibleBgs[index] + ")";
 
-    document.getElementById("pg1").style.backgroundImage = "url('" + possibleBgs[index] + "')";
+
     if(index == 0){
         document.getElementById("pg1").style.backgroundPositionY = "-950px";
-        //document.getElementById("pg1").style.backgroundPositionX = "350px";
     }
 }
 
@@ -134,9 +133,9 @@ function PickAProject_Rac()
 
     document.getElementById("ss-container").style.gridTemplateColumns = "repeat(4, 1000px)"
 
-    document.getElementById("ss-1").style.backgroundImage = "url(../_projects/rac/rac1.jpg)";
-    document.getElementById("ss-2").style.backgroundImage = "url(../_projects/rac/rac2.jpg)";
-    document.getElementById("ss-3").style.backgroundImage = "url(../_projects/rac/rac3.jpg)";
+    document.getElementById("ss-1").style.backgroundImage = "url(_projects/rac/rac1.jpg)";
+    document.getElementById("ss-2").style.backgroundImage = "url(_projects/rac/rac2.jpg)";
+    document.getElementById("ss-3").style.backgroundImage = "url(_projects/rac/rac3.jpg)";
 }
 
 function PickAProject_Endo()
@@ -153,9 +152,9 @@ function PickAProject_Endo()
 
     document.getElementById("ss-container").style.gridTemplateColumns = "400px 800px 800px 1000px"
 
-    document.getElementById("ss-1").style.backgroundImage = "url(../_projects/fnaf/d8.png)";
-    document.getElementById("ss-2").style.backgroundImage = "url(../_projects/fnaf/d11.png)";
-    document.getElementById("ss-3").style.backgroundImage = "url(../_projects/fnaf/d12.png)";
+    document.getElementById("ss-1").style.backgroundImage = "url(_projects/fnaf/d8.png)";
+    document.getElementById("ss-2").style.backgroundImage = "url(_projects/fnaf/d11.png)";
+    document.getElementById("ss-3").style.backgroundImage = "url(_projects/fnaf/d12.png)";
 }
 
 function PickAProject_RC()
@@ -172,9 +171,9 @@ function PickAProject_RC()
 
     document.getElementById("ss-container").style.gridTemplateColumns = "repeat(4, 1000px)"
 
-    document.getElementById("ss-1").style.backgroundImage = "url(../_projects/rmg/2.PNG)";
-    document.getElementById("ss-2").style.backgroundImage = "url(../_projects/rmg/5.PNG)";
-    document.getElementById("ss-3").style.backgroundImage = "url(../_projects/rmg/3.PNG)";
+    document.getElementById("ss-1").style.backgroundImage = "url(_projects/rmg/2.PNG)";
+    document.getElementById("ss-2").style.backgroundImage = "url(_projects/rmg/5.PNG)";
+    document.getElementById("ss-3").style.backgroundImage = "url(_projects/rmg/3.PNG)";
 }
 
 function PickAProject_GMG()
@@ -191,7 +190,7 @@ function PickAProject_GMG()
 
     document.getElementById("ss-container").style.gridTemplateColumns = "repeat(4, 1000px)"
 
-    document.getElementById("ss-1").style.backgroundImage = "url(../_projects/gum-ball-guy/d3.png)";
-    document.getElementById("ss-2").style.backgroundImage = "url(../_projects/gum-ball-guy/d7.png)";
-    document.getElementById("ss-3").style.backgroundImage = "url(../_projects/gum-ball-guy/d9.png)";
+    document.getElementById("ss-1").style.backgroundImage = "url(_projects/gum-ball-guy/d3.png)";
+    document.getElementById("ss-2").style.backgroundImage = "url(_projects/gum-ball-guy/d7.png)";
+    document.getElementById("ss-3").style.backgroundImage = "url(_projects/gum-ball-guy/d9.png)";
 }

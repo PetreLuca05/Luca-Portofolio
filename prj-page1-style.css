@@ -333,20 +333,20 @@
 }
 
 .all-projects-list ul li:nth-child(1) .panel-img{
-    background-image: url(../_projects/rac/rac1.jpg);
+    background-image: url(_projects/rac/rac1.jpg);
 }
 
 .all-projects-list ul li:nth-child(2) .panel-img{
-    background-image: url(../_projects/fnaf/d12.png);
+    background-image: url(_projects/fnaf/d12.png);
     background-position: center;
 }
 
 .all-projects-list ul li:nth-child(3) .panel-img{
-    background-image: url(../_projects/rmg/2.PNG);
+    background-image: url(_projects/rmg/2.PNG);
 }
 
 .all-projects-list ul li:nth-child(4) .panel-img{
-    background-image: url(../_projects/gum-ball-guy/d2.PNG);
+    background-image: url(_projects/gum-ball-guy/d2.PNG);
 }
 
 .all-projects-list ul li section h2{
