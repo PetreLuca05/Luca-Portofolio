@@ -44,30 +44,30 @@
 }
 
 .page-4-projects-panel:nth-child(1) .page-4-projects-panel-image{
-    background-image: url(../_projects/rac/rac3.jpg);
+    background-image: url(projects/rac/rac3.jpg);
     background-position-x: center;
 }
 
 .page-4-projects-panel:nth-child(2) .page-4-projects-panel-image{
-    background-image: url(../_projects/fnaf/d12.png);
+    background-image: url(projects/fnaf/d12.png);
 }
 
 .page-4-projects-panel:nth-child(3) .page-4-projects-panel-image{
-    background-image: url(../_projects/gum-ball-guy/d6.PNG);
+    background-image: url(projects/gum-ball-guy/d6.PNG);
     background-position-x: center;
 }
 
 .page-4-projects-panel:nth-child(4) .page-4-projects-panel-image{
-    background-image: url(../_projects/rmg/2.PNG);
+    background-image: url(projects/rmg/2.PNG);
 }
 
 .page-4-projects-panel:nth-child(5) .page-4-projects-panel-image{
-    background-image: url(../_projects/scifi-kfc/Demos/D4.png);
+    background-image: url(projects/scifi-kfc/Demos/D4.png);
     background-position-x: center;
 }
 
 .page-4-projects-panel:nth-child(6) .page-4-projects-panel-image{
-    background-image: url(../_projects/ps2horror/d2.png);
+    background-image: url(projects/ps2horror/d2.png);
     background-position-x: center;
 }
 
