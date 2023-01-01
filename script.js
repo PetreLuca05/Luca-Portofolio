@@ -191,7 +191,7 @@ function PickAProject_GMG()
 
     document.getElementById("ss-container").style.gridTemplateColumns = "repeat(4, 1000px)"
 
-    document.getElementById("ss-1").style.backgroundImage = "url(projects/gum-ball-guy/d3.png)";
-    document.getElementById("ss-2").style.backgroundImage = "url(projects/gum-ball-guy/d7.png)";
-    document.getElementById("ss-3").style.backgroundImage = "url(projects/gum-ball-guy/d9.png)";
+    document.getElementById("ss-1").style.backgroundImage = "url(projects/gum-ball-guy/d3.PNG)";
+    document.getElementById("ss-2").style.backgroundImage = "url(projects/gum-ball-guy/d7.PNG)";
+    document.getElementById("ss-3").style.backgroundImage = "url(projects/gum-ball-guy/d9.PNG)";
 }
