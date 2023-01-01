@@ -17,8 +17,7 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 10);
 });
 
-PickRandoTheme();
-//PickAProject_Rac();
+PickAProject_Rac();
 
 function PickRandoTheme(){
     var index;
@@ -111,8 +110,8 @@ function MySkills(){
     document.getElementById('pg3').scrollIntoView({behavior:'smooth', block:"start"});
 }
 
-function WatchMyWork(){
-    document.getElementById('pg4').scrollIntoView({behavior:'smooth', block:"start"});
+function GoToProjects(){
+    window.location = "projects-rm.html";
 }
 
 function ContactMe(){
@@ -125,6 +124,7 @@ function GoUp(){
 
 function PickAProject_Rac()
 {
+
     PickFixedTheme(1);
 
     document.getElementById("prj-title-1").innerText = "ratchet";
