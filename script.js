@@ -2,7 +2,7 @@
 const secondColorConst = "--second-color";
 const possibleColors = ["red", "orange", "orangered", "limegreen", "cadetblue"];
 const like_btn_hover_color = "--like-btn-hover-color";
-const possibleBgs = ["projects/fnaf/d8.png", "projects/rac/rac1.jpg", "projects/scifi-kfc/Demos/d8.png", "projects/gum-ball-guy/d3.png", "projects/rmg/1.PNG"]
+const possibleBgs = ["projects/fnaf/d8.png", "projects/rac/rac1.jpg", "projects/scifi-kfc/Demos/D8.png", "projects/gum-ball-guy/d3.PNG", "projects/rmg/1.PNG"]
 
 var btn = document.getElementById('btn');
 let root = document.querySelector(':root');
