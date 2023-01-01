@@ -44,7 +44,7 @@
 }
 
 .page-4-projects-panel:nth-child(1) .page-4-projects-panel-image{
-    background-image: url(_projects/rac/rac3.jpg);
+    background-image: url(file///_projects/rac/rac3.jpg);
     background-position-x: center;
 }
 
