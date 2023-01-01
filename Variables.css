@@ -40,9 +40,8 @@ body::-webkit-scrollbar{
     --like-btn-color:   var(--second-color);
     --like-btn-hover-color:white;
 
-    --page1-bg: url("rmg/1.PNG");
 
-    --vid-to-play: "src='../_projects/rac/rac_v1.mp4'";
+    --vid-to-play: '../_projects/rac/rac_v1.mp4';
 }
 
 html{

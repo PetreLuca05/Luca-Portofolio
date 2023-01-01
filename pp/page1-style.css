@@ -3,6 +3,8 @@
     height: 1350px;
     width: 100%;
 
+    background-image: url(../projects/fnaf/d1.png);
+
     background-position-y: center;
 
     background-size:cover;
