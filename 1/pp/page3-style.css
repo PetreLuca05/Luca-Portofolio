@@ -1,0 +1,208 @@
+
+.page-3{
+    height: 1350px;
+    width: 100%;
+
+    background: rgb(33, 34, 54);
+}
+
+.page-3 section{
+
+}
+
+.page-3-title{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+
+    padding-top: 300px;
+}
+
+.page-3-title h2{
+    font-size: 25px;
+    color:var(--h2-color);
+    font-weight: 500;
+}
+
+.page-3-title h1{
+    font-size: 75px;
+    margin-top: -25px;
+}
+
+.page-3-title span{
+    color: var(--second-color);
+}
+
+.page-3-skills-panels-holder{
+    display: grid;
+    grid-template-columns: repeat(3, 700px);
+    gap: 25px;
+
+    padding-top: 30px;
+
+    justify-content: center;
+}
+
+.page-3-skills-panel{
+    width: 700px;
+    height: 600px;
+
+    background: linear-gradient(90rad,rgb(19, 19, 31),rgb(89, 89, 133),rgb(19, 19, 31));
+    background-size: 1900%;
+
+    border-radius: 15px;
+
+    transition: var(--default-transirion-duration);
+}
+
+.page-3-skills-panel:hover{
+    xbackground-color: rgb(52, 52, 85);
+    background-size: 400%;
+}
+
+.page-3-skills-panel section{
+    padding: 35px 45px;
+    width: 100%;
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+.page-3-skills-panel i{
+    font-size: 65px;
+    color: white;
+}
+
+.page-3-skills-panel h1{
+    font-size: 55px;
+    color: var(--second-color);
+    text-transform: capitalize;
+}
+
+.page-3-skills-panel p{
+    font-size:var(--default-p-text-size);
+    color:var(--p-color);
+    font-weight: 300;
+    margin-right: 20%;
+    line-height:var(--p-line-height);
+}
+
+.page-3-skills-panel a{
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, .5);
+    font-size: var(--default-p-text-size);
+    text-transform: capitalize;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0);
+
+    text-align: center;
+
+    background-color: rgb(33, 34, 54);
+    xbackground-color: transparent;
+    
+    xbox-shadow: 0px 0px 15px var(--second-color);
+
+    border-radius: 10px;
+
+    padding: 10px 20px;
+    margin-top: 150px;
+
+
+    width: fit-content;
+
+    font-weight: 500;
+
+    transition: var(--default-transirion-duration);
+}
+
+.page-3-skills-panel a:hover{
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 2200px){
+
+}
+
+@media (max-width: 1480px){
+
+    .page-3{
+        height: 3150px;
+    }
+
+    .page-3-title{
+        padding-top: 300px;
+    }
+        
+    .page-3-title h1{
+        font-size: var(--phone-h1-size);
+        margin-top: -55px
+    }
+    
+    .page-3-title h2{
+        font-size: var(--phone-h2-size);
+    }
+    
+    .page-3-skills-panels-holder{
+        display: flex;    
+        flex-direction: column;
+    
+        padding-top: 30px;
+    
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-3-skills-panel{
+        width: 90%;
+        height: 800px;
+    
+        background: linear-gradient(90rad,rgb(19, 19, 31),rgb(89, 89, 133),rgb(19, 19, 31));
+        background-size: 400%;
+    
+        border-radius: 15px;
+    
+        transition: var(--default-transirion-duration);
+
+        overflow-x: hidden;
+    }
+
+    .page-3-skills-panel section{
+        padding: 35px 45px;
+        width: 100%;
+        display: grid;
+        grid-row-gap: 10px;
+    }
+
+    .page-3-skills-panel i{
+        font-size: 105px;
+    }
+    
+    .page-3-skills-panel h1{
+        font-size: 90px;
+    }
+    
+    .page-3-skills-panel p{
+        font-size:var(--phone-p-text-size);
+        margin-right: 5%;
+        line-height:var(--phone-p-line-height);
+    }
+
+    .page-3-skills-panel a{
+        font-size: var(--phone-a-text-size);    
+        padding: 10px 20px;
+        margin-top: 50px;
+    }
+    
+}
+
+@media (max-width: 1100px){
+	
+}
+
+@media (max-width: 920px){
+	
+}
+
+@media (max-width: 840px){
+	
+}

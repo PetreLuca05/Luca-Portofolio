@@ -1,0 +1,366 @@
+
+.page-4{
+    height: 2550px;
+    width: 100%;
+
+    background-color: rgb(19, 19, 31);
+}
+
+.page-4 section{
+    
+}
+
+.page-4-title{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+
+    padding-top: 300px;
+}
+
+.page-4-title h2{
+    font-size: 25px;
+    color:var(--h2-color);
+    font-weight: 500;
+}
+
+.page-4-title h1{
+    font-size: 75px;
+    margin-top: -25px;
+}
+
+.page-4-title span{
+    color: var(--second-color);
+}
+
+.page-4-projects-panels-holder{
+    display: grid;
+    grid-template-columns: repeat(3, 700px);
+    gap: 25px;
+
+    padding-top: 60px;
+
+    justify-content: center;
+}
+
+.page-4-projects-panel:nth-child(1) .page-4-projects-panel-image{
+    background-image: url(../_projects/rac/rac3.jpg);
+    background-position-x: center;
+}
+
+.page-4-projects-panel:nth-child(2) .page-4-projects-panel-image{
+    background-image: url(../_projects/fnaf/d12.png);
+}
+
+.page-4-projects-panel:nth-child(3) .page-4-projects-panel-image{
+    background-image: url(../_projects/gum-ball-guy/d6.PNG);
+    background-position-x: center;
+}
+
+.page-4-projects-panel:nth-child(4) .page-4-projects-panel-image{
+    background-image: url(../_projects/rmg/2.PNG);
+}
+
+.page-4-projects-panel:nth-child(5) .page-4-projects-panel-image{
+    background-image: url(../_projects/scifi-kfc/Demos/D4.png);
+    background-position-x: center;
+}
+
+.page-4-projects-panel:nth-child(6) .page-4-projects-panel-image{
+    background-image: url(../_projects/ps2horror/d2.png);
+    background-position-x: center;
+}
+
+.page-4-projects-panel{
+    width: 700px;
+    height: 850px;
+
+    background: linear-gradient(90rad,rgb(33, 34, 54),rgb(89, 89, 133),rgb(33, 34, 54));
+    background-size: 1900%;
+
+    border-radius: 15px;
+
+    transition: var(--default-transirion-duration);
+}
+
+.page-4-projects-panel:hover{
+    background-size: 700%;
+}
+
+
+.page-4-projects-panel section{
+    padding: 35px 35px;
+    padding-bottom: 0px;
+    width: 90%;
+    display: grid;
+    grid-row-gap: 10px;
+    height: 93%;
+}
+
+.page-4-projects-panel section ul{
+    display:inline;
+    position: relative;
+    list-style: none;
+}
+
+.page-4-projects-panel-image{
+    background-image: url(img/portfolio1.jpg);
+    background-size:cover;
+
+    background-position-x: center;
+    background-position-y: center;
+
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+
+    background-size:1000px;
+
+    transition: var(--default-transirion-duration);
+}
+
+.page-4-projects-panel:hover .page-4-projects-panel-image{
+    background-size:950px;
+}
+
+.page-4-projects-panel-title{
+    width: max-content;
+}
+
+.page-4-projects-panel-title h1{
+    color: var(--second-color);
+
+    font-weight: 800;
+    font-size: 65px;
+
+    text-transform: capitalize;
+}
+
+.page-4-projects-panel-title h2{
+    color: var(--h2-color);
+
+    font-weight: 300;
+    font-size: 25px;
+
+    xtext-align: right;
+
+    margin-top: -25px;
+}
+
+.page-4-projects-panel p{
+    color:var(--p-color);
+
+    font-weight: 300;
+    font-size: var(--default-p-text-size);
+    line-height:var(--p-line-height);
+
+    padding-top: 20px;
+}
+
+.page-4-projects-panel a{
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, .5);
+    font-size: var(--default-p-text-size);
+    text-transform: capitalize;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0);
+
+    text-align: center;
+
+    background-color: rgb(33, 34, 54);
+    
+    border-radius: 10px;
+
+    padding: 10px 20px;
+
+    width: fit-content;
+
+    font-weight: 500;
+
+    transition: var(--default-transirion-duration);
+}
+
+.page-4-projects-panel a:hover{
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+}
+
+.page-4-projects-panel-bottom-btns{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-4-projects-panel-bottom-btns i {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+
+    transition:var(--default-transirion-duration);
+
+    cursor: pointer;
+}
+
+.page-4-projects-panel-bottom-btns i:hover{
+    text-shadow: 0px 0px 15px currentColor;
+}
+
+.page-4-view-more-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-4-view-more-btn a{
+    text-decoration: none;
+
+    color: white;
+    font-size: var(--default-p-text-size);
+    text-transform: capitalize;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0);
+
+    text-align: center;
+
+    background-color: var(--second-color);
+    
+    border-radius: 10px;
+
+    width: fit-content;
+
+    transition: var(--default-transirion-duration);
+
+    margin-top: 50px;
+
+    padding: 15px 40px;
+    font-weight: 500;
+}
+
+.page-4-view-more-btn a:hover{
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 2200px){
+
+}
+
+@media (max-width: 1480px){
+    .page-4{
+        height: 4050px;
+    }
+
+    .page-4-projects-panel:nth-child(3){
+        position: fixed;
+        opacity: 0;
+    }
+
+    .page-4-projects-panel:nth-child(5){
+        position: fixed;
+        opacity: 0;
+    }
+
+    .page-4-projects-panel:nth-child(6){
+        position: fixed;
+        opacity: 0;
+    }
+
+    .page-4-title{
+        padding-top: 300px;
+    }
+    
+    .page-4-title h2{
+        font-size: var(--phone-h2-size);
+    }
+    
+    .page-4-title h1{
+        font-size: 115px;
+        margin-top: -5px;
+        line-height: 120px;
+
+        display: flex;    
+        flex-direction: column;
+    }
+
+    .page-4-title h1 span{
+        font-size: 165px;
+        margin-top: -5px;
+        line-height: 120px;
+    }
+
+    .page-4-projects-panels-holder{
+        display: flex;    
+        flex-direction: column;
+
+        padding-top: 110px;
+    
+        align-items: center;
+    }
+
+    .page-4-projects-panel{
+        width: 90%;
+        xheight: 1080px;
+        height: fit-content;
+    
+        background: linear-gradient(90rad,rgb(33, 34, 54),rgb(89, 89, 133),rgb(33, 34, 54));
+        background-size: 700%;
+    
+        border-radius: 15px;
+    
+        transition: var(--default-transirion-duration);
+    }
+
+    .page-4-projects-panel-bottom-btns{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        padding: 30px 0px;
+
+    }
+
+    .page-4-projects-panel-title h1{    
+        font-size: 90px;
+    }
+    
+    .page-4-projects-panel-title h2{
+        font-size: 45px;
+        margin-top: -45px;
+    }
+    
+    .page-4-projects-panel p{   
+
+        font-size: var(--phone-p-text-size);
+        line-height:var(--phone-p-line-height);
+        padding-top: 20px;
+    }
+    
+    .page-4-projects-panel a{
+        font-size: var(--phone-a-text-size);
+    }
+
+    .page-4-projects-panel-bottom-btns i {
+        font-size: 75px;
+    }
+
+    .page-4-view-more-btn a{
+        font-size: var(--phone-a-text-size);
+        margin-top: 50px;
+    }
+    
+}
+
+@media (max-width: 1100px){
+	
+}
+
+@media (max-width: 920px){
+	
+}
+
+@media (max-width: 840px){
+	
+}

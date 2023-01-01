@@ -1,0 +1,397 @@
+
+.page-1{
+    height: 1250px;
+    width: 100%;
+
+    background-position-y: center;
+
+    background-size:cover;
+}
+
+.page-1 section{
+
+
+}
+
+
+.page-1-bg{
+    background: rgba(33, 34, 54, .4);
+    background: linear-gradient(45rad,rgba(17, 17, 29, 1), rgba(22, 28, 53, 1),rgba(17, 17, 29, 1));
+
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+
+    position: fixed;
+}
+
+.project-holder{
+    xbackground: rgba(255, 0, 0, .2);
+
+    position: fixed;
+    left: 0;
+    top: 150px;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+
+}
+
+.project-information{
+    xbackground: rgba(255, 0, 0, .2);
+
+    width: 70%;
+    height: 1000px;
+
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.project-information ul{
+    list-style: none;
+}
+
+.project-information ul li{
+
+}
+
+.project-information h1{
+    font-size: 75px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+#prj-title-1{
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    font-size: 75px;
+}
+
+#prj-title-2{
+    color: var(--second-color);
+}
+
+.project-information h1 span{
+    color: var(--second-color);
+}
+
+.project-information h2{
+    color:var(--h2-color);
+    font-weight: 300;
+    margin-top: -20px;
+    font-size: 25px;
+
+    padding-bottom: 50px;
+}
+
+.project-information p{
+    color: white;
+    font-size: var(--default-p-text-size);
+    font-weight: 300;
+    line-height: var(--p-line-height);
+}
+
+.bottom-row{
+    display: flex;
+    height: 750px;
+
+    gap: 25px;
+
+    margin-top: 15px;
+}
+
+.bottom-row div{
+    xbackground: rgba(255, 0, 0, 0.233);
+    width: 800px;
+}
+
+.bottom-row div:nth-child(1){
+    width: 1300px;
+}
+
+.bottom-row div:nth-child(2){
+    xwidth: 1000px;
+}
+
+.bottom-row-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-row-images h1{
+    color: white;
+    text-align: center;
+
+    font-size: 65px;
+}
+
+.bottom-row-images h1 span{
+    color: var(--second-color);
+    text-align: center;
+}
+
+.bottom-row-images section{
+    xbackground: rgba(255, 0, 0, 0.233);
+    width: 1000px;
+    height: 90%;
+
+}
+
+.bottom-row-images section ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1000px);
+    gap: 30px;
+    
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    overflow-x:scroll;
+
+    scroll-snap-type: x mandatory;
+
+}
+
+#vid-1{
+    width: 1000px;
+    height: 650px;
+}
+
+#vid-1 video{
+    width: 100%;
+    height: 100%;
+}
+
+
+.bottom-row-images section ul::-webkit-scrollbar{
+    xdisplay: none;
+    width: 3px;
+    background-color: transparent;
+    xbackground-color: var(--second-color);
+    border-radius: 15px;
+}
+
+.bottom-row-images section ul::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+}
+
+.bottom-row-images section ul li{
+    xbackground: rgba(72, 255, 0, 0.534);
+    height: 99%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 5px;
+
+    scroll-snap-align: center;
+}
+
+
+.bottom-row-other-ai{
+    transform: scale(0);
+}
+
+.bottom-row-other-ai h1{
+    color: white;
+    text-align: left;
+    font-size: 65px;
+    font-weight: 800;
+    width: 800px;
+}
+
+.bottom-row-other-ai h1 span{
+    color: var(--second-color);
+    text-align: center;
+    font-weight: 800;
+}
+
+.bottom-row-other-ai section{
+    display: grid;
+    grid-template-columns: 250px 300px;
+    grid-template-rows: repeat(9, 50px);
+}
+
+.bottom-row-other-ai section div{
+    text-transform: capitalize;
+    display: flex;
+    gap: 5px;
+}
+
+.personal-info-li-title h3{
+    color: var(--second-color);
+    font-size: 25px
+}
+.personal-info-li-response h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.all-projects-list{
+    z-index: 2;
+
+    background-color: rgba(33, 34, 54, .5);
+
+    position: fixed;
+
+    width: 600px;
+    height: 100%;
+    right: 0;
+    top:0;
+
+    padding-top: 50px;
+
+    border-left: 3px solid rgba(19, 19, 31, 1);
+}
+
+.all-projects-list h1{
+    text-align: center;
+    font-size: 75px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.all-projects-list h1 span{
+    color: var(--second-color);
+}
+
+.all-projects-list ul{
+    list-style: none;
+
+    padding-top: 25px;
+
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+.all-projects-list ul::-webkit-scrollbar{
+    background: transparent;
+}
+
+.all-projects-list ul::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 5px;
+}
+
+
+.all-projects-list ul li{
+    width: 90%;
+    height: 400px;
+
+    background: rgb(19, 19, 31);
+    border-radius: 5px;
+
+    display: block;
+
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.all-projects-list ul li section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: var(--default-transirion-duration);
+}
+
+.panel-img{
+    height: 1000px;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+    margin-top: 25px;
+
+    transition: var(--default-transirion-duration);
+
+    background-size: 160%;
+}
+
+.all-projects-list ul li section:hover .panel-img{
+    background-size: 170%;
+}
+
+.all-projects-list ul li:nth-child(1) .panel-img{
+    background-image: url(../_projects/rac/rac1.jpg);
+}
+
+.all-projects-list ul li:nth-child(2) .panel-img{
+    background-image: url(../_projects/fnaf/d12.png);
+    background-position: center;
+}
+
+.all-projects-list ul li:nth-child(3) .panel-img{
+    background-image: url(../_projects/rmg/2.PNG);
+}
+
+.all-projects-list ul li:nth-child(4) .panel-img{
+    background-image: url(../_projects/gum-ball-guy/d2.PNG);
+}
+
+.all-projects-list ul li section h2{
+    text-align: center;
+    font-size: 0px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.all-projects-list ul li section h2 span{
+    xcolor: var(--second-color);
+}
+
+.all-projects-list ul li section h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+
+    color: rgba(255, 255, 255, .3);
+
+    padding: 5px 0px;
+}
+
+#filler{
+    opacity: 0;
+    background: transparent;
+}
+
+
+@media (max-width: 2200px){
+    
+}
+
+@media (max-width: 1480px){
+	
+}
+
+@media (max-width: 1100px){
+	
+}
+
+@media (max-width: 920px){
+	
+}
+
+@media (max-width: 840px){
+	
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Petre Luca's Portofolio </title>
+
+        <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, user-scalable=no" >-->
+
+        <link rel="stylesheet" href="Variables.css">
+
+        <link rel="stylesheet" href="_about-me/page1-style.css">
+
+        <link rel="stylesheet" href="div-style.css">
+
+
+        <script src="https://kit.fontawesome.com/cd1902b406.js"></script>
+    </head>
+
+    <body>
+        <header class="nav-bar">
+            <section class="nav-bar-section" style="padding: 0 90px;">
+                <section class="nav-bar-name">
+                    <p>petre<span>luca</span></p>
+                </section>
+
+                <ul class="nav-bar-liks-list" style="padding-right: 750px;">
+                    <li> <a href="pp.html">home</a> </li>
+                    <li> <a onclick="LearnAboutMe()">about me</a> </li>
+                    <li> <a onclick="MySkills()">my skills</a> </li>
+                    <li> <a onclick="WatchMyWork()" id="this-a-selected">projects</a> </li>
+                    <li> <a onclick="ContactMe()">contact</a> </li>
+                </ul>
+            </section>
+        </header>
+
+        <section class="page-1" id="pg1">
+            <section>
+                <div class="page-1-bg"></div>
+
+                <section class="project-holder">
+
+                    <section class="project-information">
+                        <ul>
+                            <li style="display: flex; gap: 15px;">
+                                <h1 id="prj-title-1">Project</h1> 
+                                <h1 id="prj-title-2">Name</h1>
+                            </li>
+                            <li><h2 id="prj-desc">Project Description</h2></li>
+                            <li>
+                                <p>
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                                    It has roots in a piece of classical Latin literature from 45 BC, 
+                                    making it over 2000 years old. Richard McClintock, a Latin professor 
+                                    at Hampden-Sydney College in Virginia, looked up one of the more obscure 
+                                    Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                    the cites of the word in classical literature, discovered the undoubtable
+                                    source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de 
+                                    Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, 
+                                    written in 45 BC. This book is a treatise on the theory of ethics, very 
+                                    popular during the Renaissance. The first line of Lorem Ipsum, "Lorem 
+                                    ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                    written in 45 BC. This book is a treatise on the theory of ethics, very 
+                                    popular during the Renaissance. The first line of Lorem Ipsum, "Lorem 
+                                    ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                    
+                                </p>
+                            </li>
+                            <li>
+                                <section class="bottom-row">
+                                    <div class="bottom-row-images">
+                                        <!--<h1>screen<span>shots</span></h1>-->
+
+                                        <section>
+                                            <ul id="ss-container">
+                                                <li id="ss-1">
+                                                </li>
+    
+                                                <li id="ss-2">
+                                                </li>
+    
+                                                <li id="ss-3">
+                                                </li>
+                                                <!--
+                                                <li id="vid-1">
+                                                    <video controls>
+                                                        <source id="vid-1-src" src="../_projects/fnaf/r1.mp4" type="video/mp4">
+                                                    </video>
+                                                </li>
+                                                -->
+                                            </ul>
+
+                                        </section>
+                                    </div>
+
+                                    <div class="bottom-row-other-ai">
+                                        <h1>additional <span>information</span></h1>
+
+                                        <section>
+                                            <div class="personal-info-li-title"><h3>used engine</h3></div>
+                                            <div class="personal-info-li-response"><h3>: </h3><h3 id="used-engine">Unreal Engine 5</h3></div>
+                                            <div class="personal-info-li-title"><h3>complete time</h3></div>
+                                            <div class="personal-info-li-response"><h3>: </h3><h3 id="complete-time">99 days</h3></div>
+                                            <div class="personal-info-li-title"><h3>used engine</h3></div>
+                                            <div class="personal-info-li-response"><h3>: </h3><h3 id="used-engine">Unreal Engine 5</h3></div>
+                                            <div class="personal-info-li-title"><h3>complete time</h3></div>
+                                            <div class="personal-info-li-response"><h3>: </h3><h3 id="complete-time">99 days</h3></div>
+                                        </section>
+                                    </div>
+                                </section>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="all-projects-list">
+                        <h1><span>projects</span> list</h1>
+    
+                        <ul>
+                            <li>
+                                <section onclick="PickAProject_Rac()">
+                                    <h2>Ratchet <span style="color: orange;">remake</span></h2>
+                                    <div class="panel-img"></div>
+                                    <h3>click for more</h3>
+                                </section>
+                            </li>
+    
+                            <li>
+                                <section onclick="PickAProject_Endo()">
+                                    <h2><span style="color: red;">Endo</span>skeleton</h2>
+                                    <div class="panel-img"></div>
+                                    <h3>click for more</h3>
+                                </section>
+                            </li>
+    
+                            <li>
+                                <section onclick="PickAProject_RC()">
+                                    <h2>Random <span style="color: cadetblue;">Creation</span></h2>
+                                    <div class="panel-img"></div>
+                                    <h3>click for more</h3>
+                                </section>
+                            </li>
+
+                            <li>
+                                <section onclick="PickAProject_GMG()">
+                                    <h2>GumBall <span style="color: limegreen;">Guy</span></h2>
+                                    <div class="panel-img"></div>
+                                    <h3>click for more</h3>
+                                </section>
+                            </li>
+    
+                            <li id="filler">
+                                <section >
+                                    <h2>Random Creation</h2>
+                                    <div class="panel-img"></div>
+                                    <h3>click for more</h3>
+                                </section>
+                            </li>
+    
+                        </ul>
+    
+                    </section>
+                </section>
+
+            </section>
+        </section>
+    </body>
+
+    <script src="/script.js"></script>
+</html>
