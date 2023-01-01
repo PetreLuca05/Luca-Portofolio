@@ -122,6 +122,16 @@ function GoUp(){
     document.getElementById('pg1').scrollIntoView({behavior:'smooth', block:"start"});
 }
 
+function ChangeVideo(vidName){
+    document.getElementById("vid-1-controls").pause();
+
+    document.getElementById("vid-1-src").setAttribute('src', vidName);
+    document.getElementById("vid-1-src").setAttribute('type', "video/mp4");
+
+    document.getElementById("vid-1-controls").load();
+    document.getElementById("vid-1-controls").play();
+}
+
 function PickAProject_Rac()
 {
 
@@ -135,11 +145,13 @@ function PickAProject_Rac()
     document.getElementById("used-engine").innerText = "Unreal Engine 5";
     document.getElementById("complete-time").innerText = "28 Days";
 
-    document.getElementById("ss-container").style.gridTemplateColumns = "repeat(4, 1000px)"
+    document.getElementById("ss-container").style.gridTemplateColumns = "repeat(4, 1000px)";
 
     document.getElementById("ss-1").style.backgroundImage = "url(projects/rac/rac1.jpg)";
     document.getElementById("ss-2").style.backgroundImage = "url(projects/rac/rac2.jpg)";
     document.getElementById("ss-3").style.backgroundImage = "url(projects/rac/rac3.jpg)";
+
+    ChangeVideo("projects/rac/v1.mp4");
 }
 
 function PickAProject_Endo()
@@ -159,6 +171,8 @@ function PickAProject_Endo()
     document.getElementById("ss-1").style.backgroundImage = "url(projects/fnaf/d8.png)";
     document.getElementById("ss-2").style.backgroundImage = "url(projects/fnaf/d11.png)";
     document.getElementById("ss-3").style.backgroundImage = "url(projects/fnaf/d12.png)";
+
+    ChangeVideo("projects/fnaf/r1.mp4");
 }
 
 function PickAProject_RC()
