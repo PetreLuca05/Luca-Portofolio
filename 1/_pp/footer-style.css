@@ -1,0 +1,16 @@
+footer{
+    position: absolute;
+    width: 100%;
+}
+
+footer section{
+    background: rgb(19, 19, 31);
+}
+
+footer section p{
+    font-size: var(--default-p-text-size);
+    font-weight: 300;
+    color: var(--p-color);
+
+    text-align: center;
+}

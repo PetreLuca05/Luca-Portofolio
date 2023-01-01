@@ -1,0 +1,173 @@
+
+.nav-bar{
+    width: 100%;
+
+    padding-top: 80px;
+
+    background: transparent;
+    position: fixed;
+
+    z-index: 1000;
+
+    transition: var(--default-transirion-duration);
+    padding-bottom: 15px;
+}
+
+.nav-bar.sticky{
+    background-color: rgb(33, 34, 54);
+    padding-top: 40px;
+
+    border-bottom: 3px solid rgba(19, 19, 31, 1);
+    xborder-top: 3px solid rgb(33, 34, 54);
+}
+
+.nav-bar-section{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 350px;
+    xpadding: 0 90px;
+
+    font-weight: 800;
+}
+
+.nav-bar-name{
+    font-size: 50px;
+
+    margin-top: -30px;
+
+    color: var(--second-color);
+    font-weight: 800;
+
+    text-transform: uppercase;
+}
+
+
+.nav-bar-name span{
+    color: white;
+
+    font-weight: 300;
+}
+
+.nav-bar-liks-list{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+
+    padding-right: 700px;
+    xpadding-right: 750px;
+
+    text-transform:uppercase;
+
+    font-weight: 800;
+}
+
+.nav-bar-liks-list li{
+
+}
+
+.nav-bar-liks-list li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    text-align: center;
+
+    transition: var(--default-transirion-duration);
+}
+
+.nav-bar-liks-list li a:hover{
+    color: white;
+    text-shadow: 0px 0px 45px white;
+}
+
+.nav-bar-liks-list li a::after{
+    content: "";
+    position: absolute;
+    background-color: var(--second-color);
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+    xborder-radius: 0 25px 25px 0;
+    border-radius: 25px;
+
+    transition: var(--default-transirion-duration);
+}
+
+.nav-bar-liks-list li a:hover::after{
+    width: 110%;
+}
+
+#this-a-selected{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    text-align: center;
+
+    transition: var(--default-transirion-duration);
+
+    text-shadow: 0px 0px 45px white;
+}
+
+#this-a-selected::after{
+    content: "";
+    position: absolute;
+    background-color: var(--second-color);
+    height: 3px;
+    width: 110%;
+    left: 0;
+    bottom: -10px;
+    border-radius: 25px;
+
+    transition: var(--default-transirion-duration);
+}
+
+
+#go-up-btn{
+    color: white;
+    background:var(--second-color);
+    border-radius: 15px;
+
+    padding: 25px 35px;
+
+    margin-right: 20px;
+    
+    font-size: 55px;
+
+    cursor: pointer;
+
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0);
+    transition: var(--default-transirion-duration);
+}
+
+
+@media (max-width: 2200px){
+    
+}
+
+@media (max-width: 1480px){
+	.nav-bar{    
+    }
+    
+    .nav-bar-section{        
+        padding-left: 10px;
+    }
+
+    .nav-bar-liks-list{
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1100px){
+	
+}
+
+@media (max-width: 920px){
+	
+}
+
+@media (max-width: 840px){
+	
+}

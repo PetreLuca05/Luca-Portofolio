@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;800&family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    font-family: 'Poppins', sans-serif;
+
+    user-select: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+:root{
+    --second-color:rgb(255, 0, 119);
+    --default-transirion-duration: .35s;
+
+    --page-1-bg-transparency: .5;
+
+    --phone-h1-size: 145px;
+
+    --phone-h2-size: 55px;
+    --h2-color:rgba(255, 255, 255, .4);
+
+    --p-color:rgba(255, 255, 255, .8);
+    --default-p-text-size:20px;
+    --p-line-height: 30px;
+
+    --phone-p-text-size:40px;
+    --phone-p-line-height: 50px;
+
+    --default-a-text-size:20px;
+    --phone-a-text-size:45px;
+
+    --like-btn-color:   var(--second-color);
+    --like-btn-hover-color:white;
+
+    --page1-bg: url("rmg/1.PNG");
+
+    --vid-to-play: "src='../_projects/rac/rac_v1.mp4'";
+}
+
+html{
+    background: rgb(33, 34, 54);
+    xbackground: black;
+
+    scroll-behavior: smooth;
+
+    overflow-x: hidden;
+}
